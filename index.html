@@ -1,10 +1,41 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html lang="en">
 <head>
-    <title>Title</title>
+    <title>Welcome to the 90s!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div class="container">
+        <header>
+            <span class="text">Cut or Copy</span>
+            <button class="btn close"></button>
+        </header>
+        <main>
+            <form action="#">
+                <div class="input-field">
+                    <span class="i-details">Enter something!</span>
+                    <input type="text">
+                </div>
+                <span class="c-text">Select an option</span>
+                <div class="c _1">
+                    <input type="radio" id="r1" name="radio" data-cut="">
+                    <label for="r1">cut</label>
+                </div>
+                <div class="c _2">
+                    <input type="radio" id="r2" name="radio" data-cut="">
+                    <label for="r2">copy</label>
+                </div>
+            </form>
+            <div class="buttons">
+                <button class="btn ok">OK</button>
+                <button class="btn cancel">CANCEL</button>
+            </div>
+        </main>
+    </div>
+    <div class="prompt">
+        <button>Open again</button>
+    </div>
+<script src="index.js" type="javascript"></script>
 </body>
 </html>
